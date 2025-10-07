@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Iron Power: Stop Anemia’s Drain</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #fff9f9;
+      color: #333;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(135deg, #d62828, #f77f00);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0;
+      font-size: 1.2rem;
+    }
+    header p.credit {
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+
+    .box {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 900px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .box h2 {
+      margin-top: 0;
+      color: #d62828;
+      text-align: center;
+    }
+
+    .intro-box {
+      background: linear-gradient(135deg, #f77f00, #d62828);
+      color: white;
+      border-radius: 12px;
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 800px;
+      box-shadow: 0 4px 15px rgba(214, 40, 40, 0.5);
+      text-align: center;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 1rem;
+      margin: 1rem 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+    }
+    .card h3 {
+      margin: 0;
+      color: #f77f00;
+    }
+    .card p {
+      margin: 0.3rem 0 0.8rem;
+    }
+    .card a {
+      color: #d62828;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    /* Feedback box */
+    #feedbackBox {
+      text-align: center;
+    }
+    #feedbackBox textarea {
+      width: 100%;
+      max-width: 700px;
+      height: 120px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      font-size: 1rem;
+      resize: none;
+    }
+    #feedbackBox button {
+      background: #d62828;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+    #feedbackBox button:hover {
+      background: #f77f00;
+    }
+    #thankYouMessage {
+      display: none;
+      color: green;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    .cta-box {
+      background: #d62828;
+      color: white;
+      padding: 2rem 1rem;
+      border-radius: 12px;
+      box-shadow: 0 0 25px rgba(214, 40, 40, 0.6);
+      margin: 3rem auto;
+      max-width: 800px;
+      text-align: center;
+      font-size: 1.4rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Iron Power: Stop Anemia’s Drain</h1>
+    <p>Empowering your health is the first step toward a thriving life</p>
+    <p class="credit">Webpage design by Marsya Anuar & Qistina Amruzani</p>
+  </header>
+
+  <!-- Intro Awareness -->
+  <div class="intro-box">
+    <p>
+      Anemia, a preventable condition where your blood lacks healthy red blood cells, 
+      causes fatigue, weakness, and shortness of breath by limiting oxygen delivery to your tissues. 
+      Making informed, blood-healthy choices can help you prevent this common issue and improve your energy and focus.
+    </p>
+  </div>
+
+  <!-- Hospitals & Clinics -->
+  <div class="box">
+    <h2>Hospitals & Clinics for Screening</h2>
+    <div class="card">
+      <h3>General Government Services</h3>
+      <p>(malaysia.gov.my)</p>
+      <p>The official portal for locating and obtaining information on government health services and clinics.</p>
+      <a href="https://www.malaysia.gov.my/portal/content/27626" target="_blank">Visit Site</a>
+    </div>
+    <div class="card">
+      <h3>PeKa B40 Health Screening</h3>
+      <p>(ProtectHealth)</p>
+      <p>A government initiative providing free NCD health screening, which includes blood tests, for eligible individuals.</p>
+      <a href="https://protecthealth.com.my/peka-b40" target="_blank">Visit Site</a>
+    </div>
+    <div class="card">
+      <h3>KPJ Healthcare</h3>
+      <p>(kpjhealth.com.my)</p>
+      <p>General medical screening packages, with the most basic option including "Full Blood Count."</p>
+      <a href="https://kpjhealth.com.my/medical-screening-packages" target="_blank">Visit Site</a>
+    </div>
+    <div class="card">
+      <h3>Columbia Asia Hospital</h3>
+      <p>(columbiaasia.com)</p>
+      <p>Shah Alam and Klang hospitals offering health screening packages.</p>
+      <a href="https://www.columbiaasia.com/malaysia/services/health-screening" target="_blank">Visit Site</a>
+    </div>
+    <div class="card">
+      <h3>Pantai Hospitals (Haematology)</h3>
+      <p>(pantai.com.my)</p>
+      <p>Specialized care from their Haematology department about Iron Deficiency Anaemia.</p>
+      <a href="https://www.pantai.com.my/medical-specialties/haematology/iron-deficiency-anaemia" target="_blank">Visit Site</a>
+    </div>
+    <div class="card">
+      <h3>Sunway Medical Centre</h3>
+      <p>(sunwaymedical.com)</p>
+      <p>General health packages including "Full Blood Count" as a key service.</p>
+      <a href="https://www.sunwaymedical.com/en/wellness-screening" target="_blank">Visit Site</a>
+    </div>
+  </div>
+
+  <!-- Strategies -->
+  <div class="box">
+    <h2>Strategies & How to Overcome Barriers</h2>
+    <div class="card">
+      <h3>Iron Intake</h3>
+      <p>Choose simple iron-rich foods: lentils, beans, tofu, spinach, fortified cereals, and lean meats/poultry.</p>
+    </div>
+    <div class="card">
+      <h3>Vitamin C Boost</h3>
+      <p>Add a Vitamin C source to iron-rich meals (e.g., bell peppers, oranges, tomatoes) to triple absorption.</p>
+    </div>
+    <div class="card">
+      <h3>B12 Check</h3>
+      <p>For those limiting animal products: include B12-fortified foods or supplements.</p>
+    </div>
+    <div class="card">
+      <h3>Consultation</h3>
+      <p>Don't self-diagnose! See a doctor if you have persistent symptoms like fatigue, pale skin, or weakness.</p>
+    </div>
+  </div>
+
+  <!-- Recipes -->
+  <div class="box">
+    <h2>Iron-Rich Recipes & Meal Plans</h2>
+    <div class="card">
+      <h3>IRON-RICH RECIPES</h3>
+      <p>(Boston Children’s Hospital)</p>
+      <a href="https://www.childrenshospital.org/sites/default/files/2023-03/pehc-iron-rich-recipes.pdf" target="_blank">View Recipes</a>
+    </div>
+    <div class="card">
+      <h3>16 Iron-Rich Recipes for an Energy Boost</h3>
+      <p>(Centr)</p>
+      <a href="https://centr.com/blog/show/28655/iron-rich-recipes" target="_blank">View Recipes</a>
+    </div>
+    <div class="card">
+      <h3>7-Day Anemia Diet Plan</h3>
+      <p>(EatingWell)</p>
+      <a href="https://www.eatingwell.com/article/7921908/anemia-diet-plan-to-help-boost-iron-levels/" target="_blank">View 7-Day Plan</a>
+    </div>
+  </div>
+
+  <!-- Feedback -->
+  <div class="box" id="feedbackBox">
+    <h2>Comments / Suggestions</h2>
+    <form id="feedbackForm" action="https://getform.io/f/bvrmdxdb" method="POST">
+      <textarea name="message" placeholder="Write your feedback here..." required></textarea><br />
+      <button type="submit">Submit Feedback</button>
+    </form>
+    <div id="thankYouMessage">✅ Thank you for your feedback!</div>
+  </div>
+
+  <!-- Call to Action -->
+  <div class="cta-box">
+    Feeling Drained? Don’t Guess, Get Tested!
+  </div>
+
+  <script>
+    document.getElementById("feedbackForm").addEventListener("submit", async function(event) {
+      event.preventDefault();
+      const form = event.target;
+      const formData = new FormData(form);
+      try {
+        const res = await fetch(form.action, {
+          method: form.method,
+          body: formData,
+          headers: { "Accept": "application/json" }
+        });
+        if (res.ok) {
+          form.reset();
+          document.getElementById("thankYouMessage").style.display = "block";
+        } else {
+          alert("There was an error. Please try again.");
+        }
+      } catch (err) {
+        alert("There was an error. Please try again.");
+      }
+    });
+  </script>
+
+</body>
+</html>
